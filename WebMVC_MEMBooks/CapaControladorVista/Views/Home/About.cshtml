@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Acerca de nosotros";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<article>
+    <p>
+        1.	Descripción
+El concepto inicial se basa en desarrollar una aplicación para dispositivos móviles de tecnología Android, que permita la conectividad entre usuarios que requieran libros escolares concretos y usuarios que deseen regalar libros escolares de segunda mano que no usarán y que puedan ser útiles a otras personas. 
+<br><br>
+2.	Motivación
+Al echar un vistazo a la evolución de los gastos escolares en los que vienen implícitos material escolar como libros, podemos ver que el coste ha incrementado a lo largo de los años de forma independiente al coste cotidiano y al poder adquisitivo de las personas. Si a este hecho añadimos un periodo de crisis y el incremento de gastos académicos complementarios a los libros escolares tales como otros materiales o matriculación; resulta necesario crear una plataforma que permita reutilizar el material que puede volverse a usar porque no está en desuso, porque aún mantiene un buen estado y/o por que cumple con las característica por las que el libro fue editado.
+Por los motivos expuestos nuestro equipo decide crear una aplicación que permita, de forma gratuita, que usuarios puedan reaprovechar material escolar que otros usuarios no utilizarán.
+        <br><br>
+3.	Objetivos
+El objetivo principal es crear una aplicación que exponga los libros que usuarios solidarios quieran donar para que otros usuarios conectados a la aplicación puedan contactar con los usuarios donadores con el objetivo de realizar la donación de los libros o, incluso, intercambiar por otros libros.
+<br><br>
+4.	Alcance
+Se prevé exponer gratuitamente la aplicación en mercados online como GooglePlay por lo que su alcance es mundial y cualquiera puede acceder a la aplicación, descargarla y usarla. 
+
+Inicialmente los libros escolares al ser de uso académico estarán relacionados a centros escolares donde se usarán, y el equipo prevé crear esta relación con centros del área de Barcelona por lo que parte de las funcionalidades, tales como filtros de búsqueda, se centrarán en encontrar libros requeridos en el área de Barcelona. Esta medida es inicial pero con el objetivo de ir, gradualmente, ampliando su alcance geográfico.
+En cuanto a su alcance tecnológico, la aplicación se desarrollara para dispositivos Android por lo que inicialmente usuarios con móviles o tablets que no dispongan de compatibilidad con Android no podrán dar uso a la aplicación.
+
+    </p>
+</article>
+
+<aside>
+    <ul>
+        <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+        
+        <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+    </ul>
+    <h3>Enlaces de interes</h3>
+    <p>
+        <a href="http://virtual.ecaib.org/">Ecaib Institut Poblenou</a><br>
+        <a href="https://github.com/poblenou/MEMBooks">MEMBooks en GitHub</a>
+    </p>
+    
+</aside>

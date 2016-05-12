@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Contacto";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<section class="contact">
+    <header>
+        <h3>Teléfono</h3>
+    </header>
+    <p>
+        <span class="label">Principal:</span>
+        <span>650 85 27 41</span>
+    </p>
+    <p>
+        <span class="label">Fuera del horario laboral:</span>
+        <span>645 41 52 63</span>
+    </p>
+</section>
+
+<section class="contact">
+    <header>
+        <h3>Correo electrónico</h3>
+    </header>
+    <p>
+        <span class="label">Support:</span>
+        <span><a href="mailto:Support@example.com">Support@memsoft.com</a></span>
+    </p>
+    <p>
+        <span class="label">Marketing:</span>
+        <span><a href="mailto:Marketing@example.com">Marketing@memsoft.com</a></span>
+    </p>
+    <p>
+        <span class="label">General:</span>
+        <span><a href="mailto:General@example.com">General@memsoft.com</a></span>
+    </p>
+</section>
+
+<section class="contact">
+    <header>
+        <h3>Dirección</h3>
+    </header>
+    <p>
+        C/ Venero num 13<br />
+        Barcelona, Spain 08005
+    </p>
+</section>
+
+<aside>
+    <ul>
+        <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+        
+        <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
+    </ul>
+    <h3>Enlaces de interes</h3>
+    <p>
+        <a href="http://virtual.ecaib.org/">Ecaib Institut Poblenou</a><br>
+        <a href="https://github.com/poblenou/MEMBooks">MEMBooks en GitHub</a>
+    </p>
+    
+</aside>
