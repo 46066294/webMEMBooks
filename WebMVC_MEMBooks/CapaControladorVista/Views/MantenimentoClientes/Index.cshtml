@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<Dominio.Cliente>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Sugerencias";
 }
 
-<h2>Index</h2>
+<h2>Danos tu opinion</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -15,7 +15,8 @@
             @Html.DisplayNameFor(model => model.Nombre)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Phone)
+            <!--@Html.DisplayNameFor(model => model.Phone)-->
+            Post
         </th>
         <th></th>
     </tr>
